@@ -1,3 +1,95 @@
 body {
-    color: #999;
+    color: #504949;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.task, tr, th, td, table {
+    border: 1px solid #948e7a;
+}
+
+.task {
+    margin: 20px auto;
+    min-width: 320px;
+    max-width: 800px;
+    text-align:center;
+    border: 4px double #948e7a;
+    border-radius: 4px 36px;
+}
+
+table, .board {
+    margin: 20px auto;
+}
+
+th {
+    cursor: pointer;
+    background-color: #dcdfb9;
+}
+
+th:hover {
+    background-color: #cac6b5;
+}
+
+td, th {
+    padding: 5px;
+}
+
+tr > td:nth-child(2) {
+    text-align: left;
+}
+
+h2 {
+    text-align: center;
+}
+
+button {
+    font-weight: 600;
+    padding: 10px;
+    margin: 10px auto 20px;
+    cursor: pointer;
+    width: 200px;
+
+    border: 1px solid #504949;
+    border-radius: 4px 18px;
+}
+
+button:hover {
+    background-color: #cac6b5;
+    box-shadow: 2px 2px 10px #a06d6d;
+}
+
+button:active, th:active {
+    background-color: #333;
+    border-color: #333;
+    color: #eee;
+}
+
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 312px;
+    justify-content: center;
+}
+
+.cell {
+    flex-wrap: wrap;
+    width: 64px;
+    height: 64px;
+    border: 1px solid #948e7a;
+    border-radius: 50%;
+    margin: 6px;
+}
+
+.active {
+    background: url(../img/goblin.png);
+    background-size: 64px;
+    cursor: crosshair;
+}
+
+.points {
+    width: 140px;
+    margin: auto;
+    padding: 3px;
+    font-weight: 600;
+    text-align: left;
 }
