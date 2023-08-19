@@ -2,6 +2,8 @@
 
 ![CI](https://github.com/RomanMenshikov92/new-repo-ahj-homeworks-dom/actions/workflows/web.yml/badge.svg)
 
+[![Build status](https://ci.appveyor.com/api/projects/status/a0xx8gk4ip8s05n5?svg=true)](https://ci.appveyor.com/project/RomanMenshikov92/new-repo-ahj-homeworks-dom)
+
 Правила сдачи задания:
 
 1. **Важно**: в рамках этого ДЗ можно использовать любой менеджер пакетов
